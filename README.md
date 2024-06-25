@@ -5,7 +5,6 @@ Set Up Instructions:
 - Go to http://localhost:3000/documents
 - Create documents or export to CSV
 
-
 Code:
 - Main logic is contained in: app/models/document.rb, app/controllers/document_controller.rb, and app/views/documents/index.html.erb
 - app/models/document.rb: implements "self.to_csv" method for creating a CSV object that can be downloaded.
