@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+
+  resources :documents, only: [:index, :create]
+  get "documents_download", to: "documents#download"
+
 end
